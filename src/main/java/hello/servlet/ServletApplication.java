@@ -16,8 +16,8 @@ public class ServletApplication {
 	}
 
 	//prefix,suffix를 설정파일에 등록하지 않았을 경우 별도의 빈으로 등록해서 사용
-	@Bean
-	ViewResolver internalResourceViewResolver() {
-		return new InternalResourceViewResolver("/WEB-INF/views/", ".jsp");
-	}
+//	@Bean
+//	ViewResolver internalResourceViewResolver() {
+//		return new InternalResourceViewResolver("/WEB-INF/views/", ".jsp");
+//	}
 }
